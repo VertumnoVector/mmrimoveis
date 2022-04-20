@@ -1,0 +1,41 @@
+@media screen and (max-width: 1343px) {
+    .carousel-inner {
+      height: 350px;
+    }
+  }
+
+  footer {
+    position: bottom;
+    height: auto;
+    bottom: 0;
+    width: 100%;
+    padding: 0 10px 0 10px;
+  }
+
+  .p-shadow {
+    text-shadow: 2px 2px #000000;
+  }
+
+  h1 {
+    margin-top: 3rem !important;
+  }
+
+  .miguel {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle !important;
+  }
+
+  .divider-menu {
+    background-color: #fff;
+  }
+
+  .fundo {
+    background-image: url("assets/img/bg.png");
+    background-size: 200px 200px;
+  }
+
+  .margin-bar {
+    margin: 1rem 0;
+    visibility: hidden;
+  }

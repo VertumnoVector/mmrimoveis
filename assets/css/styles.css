@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Neutral";
+    src: url("../../assets/font/NeutralFace.otf") format('opentype');
+  }
+
+  footer {
+    position: bottom;
+    height: auto;
+    bottom: 0;
+    width: 100%;
+    padding: 0 10px 0 10px;
+  }
+
+  .p-shadow {
+    text-shadow: 2px 2px #000000;
+  }
+
+  h1 {
+    margin-top: 3rem !important;
+  }
+
+  .miguel {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle !important;
+  }
+
+  .divider-menu {
+    background-color: #fff;
+  }
+
+  .fundo {
+    background-image: url("../../assets/img/bg.png");
+    background-size: 200px 200px;
+  }
+
+  .neutral {
+    font-family: "Neutral";
+  }
+
+  .card {
+    display: flex;
+    align-items: stretch;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+
+  .card:hover {
+
+    transform: scale(1.05);
+  }
